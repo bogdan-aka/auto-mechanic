@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Общие стили */
+
+.wrapper{
+    width: 71.43%;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(img/bg-header.png);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navigation{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-menu{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-link{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    opacity: 0.75;
+}
+
+.lang{
+    display: flex;
+    gap: 8px;
+    height: 24px;
+}
+
+.lang-link{
+    color: #B7B7B7;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.lang-active{
+    color: #FFF;
+}
+
+
+/* Секция intro */
+
+.intro{
+    padding-top: 220px;
+}
+
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.intro-content h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 150%; /* 72px */
+    text-transform: uppercase;
+}
+
+.show-more{
+    display: block;
+    padding: 11px 48px 12px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150% /* 27px */;
+    background-color: #db2512;
+    width: 198px;
+    text-align: center;
+}
+
+.blocks-contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+}
+
+.item-contact{
+    width: 32%;
+    height: 196px;
+    border: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    padding: 39px 0 37px 39px;
+    background-color: #FFF;
+}
+
+.icon-contact{
+    margin-bottom: 21px;
+}
+
+.item-contact h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+.text-contact{
+    color: #B7B7B7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+/* Ключевое слово - программирую */
+
+/*Cекция our-service */
+/* Кодовое слово: по-своему */
+
+.our-service{
+    padding-top: 197px;
+    padding-bottom: 108px;
+}
+
+.our-service__heaeding{
+    margin-bottom: 60px;
+}
+
+.our-service__heaeding h2{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.our-service__heaeding a{
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 2.25px;
+    text-decoration-line: underline;
+}
+
+.our-service__blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-service__block{
+    width: 32.17%;
+}
+
+.our-service__block h3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+}
+
+/*Cекция understand */
+
+.understand{
+    padding-top: 117px;
+    padding-bottom: 116px;
+    background-color: #171616;
+}
+
+.understand-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.understand__text-block{
+    width: 42.17%;
+}
+
+.understand__text-block h2{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 4.5px;
+    text-transform:uppercase;
+
+}
+
+.understand__text-block p{
+    color: #B7B7B7;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 3.45px;
+    margin-bottom:  48px;
+}
+
+.understand__text-block a{
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 2.7px;
+    text-decoration-line:underline;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+/*Ceкция contacts*/
+
+.contacts{
+    padding-top: 104px;
+    padding-bottom: 88px;
+    background-color: #171616;
+}
+
+.contacts h2{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+.form-row{
+    display: flex;
+    gap: 46px;
+}
+
+.form-row:nth-child(1){
+    margin-bottom: 45px;
+}
+
+.form-row:nth-child(2){
+    margin-bottom: 51px;
+}
+
+.form-row:nth-child(3){
+    margin-bottom: 37px;
+}
+
+.form textarea{
+    width: 440px;
+    height: 131px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.79px solid #FFF;
+    outline: none;
+}
+
+.form .form-row input{
+    width: 197px;
+    height: 33px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+.form .form-row input,
+.form textarea,
+.form .form-row input::placeholder,
+.form .form-row textarea::placeholder{
+    color: #FFF;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 2.25px;
+}
+
+
+input[type="submit"]{
+    padding: 11px 75px 12px 76px;
+    background-color:#DB2512;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform:uppercase;
+    border:none;
+    cursor: pointer;
+}
+
+/*Код для footer*/
+
+.footer-info{
+    padding-top: 65.72px;
+    padding-bottom: 64.66px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_social-icon{
+    display: flex;
+    align-items: center;
+    gap:22px;
+}
+.footer_social-icom a{
+    display: flex;
+}
